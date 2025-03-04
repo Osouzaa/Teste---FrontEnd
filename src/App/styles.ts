@@ -14,7 +14,7 @@ export const AppContainer = styled.div`
 `;
 
 export const AppContent = styled.div`
-  max-width: 90rem;
+  max-width: 60rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
