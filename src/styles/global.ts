@@ -12,6 +12,9 @@ export const GlobalStyles = createGlobalStyle `
   body {
     font-family: 'Sora', sans-serif;
     font-weight: 400;
-    
+  }
+
+  svg {
+    cursor: pointer;
   }
 `

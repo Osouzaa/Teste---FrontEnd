@@ -1,4 +1,5 @@
 import { AsideBar } from "../components/AsideBar";
+import { Radio } from "../components/Radio";
 import { GlobalStyles } from "../styles/global";
 import { AppContainer, AppContent } from "./styles";
 
@@ -9,7 +10,7 @@ export function App() {
       <AppContainer>
         <AppContent>
           <AsideBar />
-          <h1>Hello</h1>
+          <Radio />
         </AppContent>
       </AppContainer>
     </>

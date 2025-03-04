@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Sidebar = styled.aside`
   width: 250px;
+  height: 100%;
   background-color: #1E1E1E;
   color: #FFF;
   padding: 1rem;
@@ -9,7 +10,6 @@ export const Sidebar = styled.aside`
   flex-direction: column;
   gap: 1rem;
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
-  justify-content: flex-end;
 `;
 
 export const InputFilter = styled.input`
