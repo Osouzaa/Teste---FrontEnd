@@ -1,3 +1,4 @@
+import { AsideBar } from "../components/AsideBar";
 import { GlobalStyles } from "../styles/global";
 import { AppContainer, AppContent } from "./styles";
 
@@ -7,7 +8,8 @@ export function App() {
       <GlobalStyles />
       <AppContainer>
         <AppContent>
-          <h1>Heeeloo</h1>
+          <AsideBar />
+          <h1>Hello</h1>
         </AppContent>
       </AppContainer>
     </>
