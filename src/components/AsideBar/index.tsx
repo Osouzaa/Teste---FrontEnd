@@ -1,9 +1,16 @@
-import { Sidebar } from "./styles";
+import { Menu } from "lucide-react";
+import { InputFilter, ListStyles, Sidebar } from "./styles";
 
 export function AsideBar() {
   return (
     <Sidebar>
-      <h1>Heeeloo</h1>
+      <Menu size={24} />
+      <InputFilter type="text" placeholder="Search here"/>
+
+      <ListStyles>
+        <li>MPB</li>
+        <li>Sertanejo Brasil</li>
+      </ListStyles>
     </Sidebar>
   )
 }
